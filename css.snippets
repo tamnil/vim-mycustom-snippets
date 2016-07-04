@@ -31,6 +31,18 @@ snippet @f
 	}
 snippet @i
 	@import url(${0});
+snippet @msmax
+	@media screen and (max-width: ${1:max}px) {
+		${0}
+	}
+snippet @msmin
+	@media screen and (min-width: ${1:min}px) {
+		${0}
+	}
+snippet @ms
+	@media screen and (min-width: ${1:min}px) and (max-width: ${2:max}px  {
+		${0}
+	}
 snippet @m
 	@media ${1:print} {
 		${0}
