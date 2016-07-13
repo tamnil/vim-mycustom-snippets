@@ -1,0 +1,20 @@
+#custom web snippets
+#  jquery
+snippet jquery
+	<script src=https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js></script>
+#
+snippet bootstrap
+	<link href="../dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src=https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js></script>
+	<script src="js/bootstrap.min.js"></script>
+#
+snippet angular
+	<html ng-app>
+	<!-- Body tag augmented with ngController directive  -->
+	<body ng-controller="MyController">
+	<input ng-model="foo" value="bar">
+	<!-- Button tag with ng-click directive, and string expression 'buttonText' wrapped in "{{ }}" markup -->
+	<button ng-click="changeFoo()">{{buttonText}}</button>
+	<script src="angular.js">
+	</body>
+	</html>
